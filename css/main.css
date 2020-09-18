@@ -1,0 +1,79 @@
+.body {
+  margin: 0px; }
+
+.header {
+  font-family: Montserrat;
+  font-style: normal;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+  height: 100vh;
+  background: linear-gradient(238.95deg, #23286B 18.43%, rgba(29, 50, 124, 0.984553) 53.52%, rgba(10, 85, 183, 0.93) 111.46%); }
+  .header .header-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+    .header .header-content .navbar {
+      padding: 3% 0 0 0;
+      height: 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline; }
+      .header .header-content .navbar .navigation {
+        display: flex;
+        justify-content: space-between;
+        height: 18px;
+        padding: 10px; }
+        .header .header-content .navbar .navigation div {
+          padding: 15px; }
+      @media (max-width: 1460px) {
+        .header .header-content .navbar .navigation {
+          display: none; } }
+      .header .header-content .navbar .come-in {
+        text-align: center;
+        padding: 5px 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+        width: 100px;
+        height: 18px; }
+    .header .header-content .description {
+      justify-content: space-between;
+      height: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px; }
+      .header .header-content .description .introduction-text .text1 {
+        font-size: 35px;
+        font-weight: bold;
+        max-width: 617px;
+        padding: 3vh 0; }
+      .header .header-content .description .introduction-text .text2 {
+        font-weight: bold; }
+      .header .header-content .description .introduction-text .text3 {
+        padding-bottom: 3vh; }
+      .header .header-content .description .introduction-text .lesson-button {
+        border: 1px solid #D62929;
+        border-radius: 5px;
+        background-color: #D62929;
+        width: 250px;
+        height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+      .header .header-content .description .books-svg {
+        display: table-cell;
+        vertical-align: middle; }
+        .header .header-content .description .books-svg img {
+          display: block;
+          max-width: 100%;
+          margin: 0 auto; }
+    @media (max-width: 1024px) {
+      .header .header-content .description {
+        flex-direction: column-reverse; } }
+
+.main-content {
+  width: 100%;
+  height: 100vh; }
