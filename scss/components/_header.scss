@@ -1,6 +1,13 @@
-.body {
-    margin: 0px;
+body{
+box-sizing: border-box;
+margin:0;
 }
+ 
+*, *:after, *:before{
+box-sizing: inherit;
+}
+
+
 
 .header {
     font-family: Montserrat;
@@ -8,14 +15,14 @@
     color: white;
     display: flex;
     justify-content: center;
-    flex-basis: 100%;
+    flex-basis: 70%;
     height: 100vh;
     background: $gradient;
     .header-content {
-        width: 60%;
         display: flex;
         flex-direction: column;
         height: 100%;
+        width: 70%;
         .navbar {
             padding: 3% 0 0 0;
             height: 10%;
@@ -44,7 +51,6 @@
                 border: 1px solid white;
                 border-radius: 5px;
                 width: 100px;
-                height: 18px;
             }
         }
         .description {
@@ -53,7 +59,7 @@
 
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
             font-size: 20px;
 
             .introduction-text {
@@ -84,8 +90,6 @@
             }
             .books-svg {
 
-                display: table-cell;
-                vertical-align: middle;
                 img {
                     display: block;
                     max-width: 100%;
@@ -97,6 +101,7 @@
         @media (max-width: 1024px) {
             .description {
                 flex-direction: column-reverse;
+                justify-content: center;
 
             }
         }

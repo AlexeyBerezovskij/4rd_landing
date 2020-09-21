@@ -1,4 +1,249 @@
 .main-content {
-    width: 100%;
-    height: 100vh;
+    width: 70%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    .training {
+        padding: 20px 0;
+        text-align: left;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2em;
+        line-height: 61px;
+        /* identical to box height */
+        
+        
+        color: #23286B;
+    }
+        
+    .text-area {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: baseline;
+        .text-column {
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 200px;
+            height: 200px;
+            margin: 0 20px 0 0;
+            .red-text {
+                left: 0%;
+                right: 8.84%;
+                top: 0%;
+                bottom: 75.61%;
+                max-width: 221px;
+    
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 30px;
+    
+                color: #D62929;
+                border-bottom: 3px solid #23286B;
+            }
+            .description-text {
+                left: 0%;
+                right: 11.24%;
+                top: 46.34%;
+                bottom: 4.88%;
+                
+    
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 18px;
+    
+                color: #23286B;
+    
+            }
+            .link-text {
+                left: 0%;
+                right: 63.45%;
+                top: 97.56%;
+                bottom: -12.2%;
+    
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 18px;
+    
+                color: #3E8AF8;
+    
+            }
+        }
+
+    }
+    .english-level-area-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .student-laptop-svg {
+            max-width: 508px;
+            svg {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .level-english-area {
+            max-width: 500px;
+            .level-head {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 25px;
+                line-height: 30px;
+                padding: 20px 0;
+                color: #23286B;                
+            }
+            .level-area {
+                
+                display: flex;
+                flex-wrap: wrap;
+                .level-card {
+                    width: 95px;
+                    display: flex;
+                    flex-direction: column;
+                    
+                    .level-number {
+                        font-weight: bold;
+                        font-size: 30px;
+                        line-height: 37px;
+                        
+                        /* identical to box height */
+
+
+                        color: #8CB6F5;
+
+                    }
+                    .level-level {
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 15px;
+                        line-height: 18px;
+                        width: 71px;
+                        color: #23286B;
+                        text-align: left;
+
+                    }
+                }
+            }
+            .start-test-button {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 18px;
+
+                color: #FFFFFF;
+                background: #E94A47;
+                border-radius: 5px;
+                width: 160px;
+                height: 30px;
+                text-align: center;
+                padding: 5px;
+                margin: 20px 0;
+
+            }
+        }
+    }
+    .about-us {
+        .text-long-area {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: baseline;
+            .album-teachers {
+                .link-teachers-text {
+                    left: 0%;
+                    right: 63.45%;
+                    top: 97.56%;
+                    bottom: -12.2%;
+        
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 18px;
+        
+                    color: #3E8AF8;
+        
+                }
+            }
+            .text-long-column {
+                padding-bottom: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                max-width: 390px;
+                height: 200px;
+                margin: 0 20px 0 0;
+                .column-about-us {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .description-text {
+                    left: 0%;
+                    right: 11.24%;
+                    top: 46.34%;
+                    bottom: 4.88%;
+                    
+        
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 18px;
+        
+                    color: #23286B;
+        
+                }
+                .link-text {
+                    left: 0%;
+                    right: 63.45%;
+                    top: 97.56%;
+                    bottom: -12.2%;
+        
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 18px;
+        
+                    color: #3E8AF8;
+        
+                }
+            }   
+        }
+        .teachers-army {
+            display: flex;
+            flex-wrap: wrap;
+
+            .teachers {
+                padding: 0 10px 10px 0;
+            }
+        }
+    }
+    .form-desktop-image-container {
+        .trial-lesson-form {
+            .form-container {
+                display: flex;
+                flex-direction: column;
+                .form {
+                    width: 340px;
+                    color: #A1C3FC;
+                    border: 1px solid white;
+                    padding: 10px;
+                    margin: 5px;
+                }
+            }
+        }
+    }   
+
 }

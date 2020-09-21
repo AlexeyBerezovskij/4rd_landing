@@ -1,0 +1,41 @@
+.footer {
+    background: #23286B;
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin: 0 auto;
+        background: #23286B;
+        color: white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        min-height: 336px;
+        align-items: baseline;
+        flex-wrap: wrap;
+        .first-footer-column {}
+        .second-footer-column {
+            .social-media-links {
+                display: flex;
+                
+                .image-social-media {
+                    padding: 0 10px 0 0;
+                }
+            }
+        }
+        .third-footer-column {
+            min-height: 215px;
+            display: flex;
+            flex-direction: column;
+            .udemy {
+                align-self: flex-end;
+                padding: 40px 0 0 0;
+            }
+        }
+        div {
+            padding: 10px;
+        }
+    }
+}

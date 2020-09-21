@@ -1,5 +1,9 @@
-.body {
-  margin: 0px; }
+body {
+  box-sizing: border-box;
+  margin: 0; }
+
+*, *:after, *:before {
+  box-sizing: inherit; }
 
 .header {
   font-family: Montserrat;
@@ -7,14 +11,14 @@
   color: white;
   display: flex;
   justify-content: center;
-  flex-basis: 100%;
+  flex-basis: 70%;
   height: 100vh;
   background: linear-gradient(238.95deg, #23286B 18.43%, rgba(29, 50, 124, 0.984553) 53.52%, rgba(10, 85, 183, 0.93) 111.46%); }
   .header .header-content {
-    width: 60%;
     display: flex;
     flex-direction: column;
-    height: 100%; }
+    height: 100%;
+    width: 70%; }
     .header .header-content .navbar {
       padding: 3% 0 0 0;
       height: 10%;
@@ -36,14 +40,13 @@
         padding: 5px 10px;
         border: 1px solid white;
         border-radius: 5px;
-        width: 100px;
-        height: 18px; }
+        width: 100px; }
     .header .header-content .description {
       justify-content: space-between;
       height: 90%;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       font-size: 20px; }
       .header .header-content .description .introduction-text .text1 {
         font-size: 35px;
@@ -63,17 +66,222 @@
         display: flex;
         align-items: center;
         justify-content: center; }
-      .header .header-content .description .books-svg {
-        display: table-cell;
-        vertical-align: middle; }
-        .header .header-content .description .books-svg img {
-          display: block;
-          max-width: 100%;
-          margin: 0 auto; }
+      .header .header-content .description .books-svg img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto; }
     @media (max-width: 1024px) {
       .header .header-content .description {
-        flex-direction: column-reverse; } }
+        flex-direction: column-reverse;
+        justify-content: center; } }
 
 .main-content {
-  width: 100%;
-  height: 100vh; }
+  width: 70%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; }
+  .main-content .training {
+    padding: 20px 0;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 61px;
+    /* identical to box height */
+    color: #23286B; }
+  .main-content .text-area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline; }
+    .main-content .text-area .text-column {
+      padding-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 200px;
+      height: 200px;
+      margin: 0 20px 0 0; }
+      .main-content .text-area .text-column .red-text {
+        left: 0%;
+        right: 8.84%;
+        top: 0%;
+        bottom: 75.61%;
+        max-width: 221px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        color: #D62929;
+        border-bottom: 3px solid #23286B; }
+      .main-content .text-area .text-column .description-text {
+        left: 0%;
+        right: 11.24%;
+        top: 46.34%;
+        bottom: 4.88%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #23286B; }
+      .main-content .text-area .text-column .link-text {
+        left: 0%;
+        right: 63.45%;
+        top: 97.56%;
+        bottom: -12.2%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #3E8AF8; }
+  .main-content .english-level-area-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .main-content .english-level-area-container .student-laptop-svg {
+      max-width: 508px; }
+      .main-content .english-level-area-container .student-laptop-svg svg {
+        width: 100%;
+        height: 100%; }
+    .main-content .english-level-area-container .level-english-area {
+      max-width: 500px; }
+      .main-content .english-level-area-container .level-english-area .level-head {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 30px;
+        padding: 20px 0;
+        color: #23286B; }
+      .main-content .english-level-area-container .level-english-area .level-area {
+        display: flex;
+        flex-wrap: wrap; }
+        .main-content .english-level-area-container .level-english-area .level-area .level-card {
+          width: 95px;
+          display: flex;
+          flex-direction: column; }
+          .main-content .english-level-area-container .level-english-area .level-area .level-card .level-number {
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 37px;
+            /* identical to box height */
+            color: #8CB6F5; }
+          .main-content .english-level-area-container .level-english-area .level-area .level-card .level-level {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 18px;
+            width: 71px;
+            color: #23286B;
+            text-align: left; }
+      .main-content .english-level-area-container .level-english-area .start-test-button {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        background: #E94A47;
+        border-radius: 5px;
+        width: 160px;
+        height: 30px;
+        text-align: center;
+        padding: 5px;
+        margin: 20px 0; }
+  .main-content .about-us .text-long-area {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline; }
+    .main-content .about-us .text-long-area .album-teachers .link-teachers-text {
+      left: 0%;
+      right: 63.45%;
+      top: 97.56%;
+      bottom: -12.2%;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 18px;
+      color: #3E8AF8; }
+    .main-content .about-us .text-long-area .text-long-column {
+      padding-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      max-width: 390px;
+      height: 200px;
+      margin: 0 20px 0 0; }
+      .main-content .about-us .text-long-area .text-long-column .column-about-us {
+        display: flex;
+        flex-direction: column; }
+      .main-content .about-us .text-long-area .text-long-column .description-text {
+        left: 0%;
+        right: 11.24%;
+        top: 46.34%;
+        bottom: 4.88%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #23286B; }
+      .main-content .about-us .text-long-area .text-long-column .link-text {
+        left: 0%;
+        right: 63.45%;
+        top: 97.56%;
+        bottom: -12.2%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #3E8AF8; }
+  .main-content .about-us .teachers-army {
+    display: flex;
+    flex-wrap: wrap; }
+    .main-content .about-us .teachers-army .teachers {
+      padding: 0 10px 10px 0; }
+  .main-content .form-desktop-image-container .trial-lesson-form .form-container {
+    display: flex;
+    flex-direction: column; }
+    .main-content .form-desktop-image-container .trial-lesson-form .form-container .form {
+      width: 340px;
+      color: #A1C3FC;
+      border: 1px solid white;
+      padding: 10px;
+      margin: 5px; }
+
+.footer {
+  background: #23286B; }
+  .footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+    background: #23286B;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    min-height: 336px;
+    align-items: baseline;
+    flex-wrap: wrap; }
+    .footer .footer-container .second-footer-column .social-media-links {
+      display: flex; }
+      .footer .footer-container .second-footer-column .social-media-links .image-social-media {
+        padding: 0 10px 0 0; }
+    .footer .footer-container .third-footer-column {
+      min-height: 215px;
+      display: flex;
+      flex-direction: column; }
+      .footer .footer-container .third-footer-column .udemy {
+        align-self: flex-end;
+        padding: 40px 0 0 0; }
+    .footer .footer-container div {
+      padding: 10px; }
