@@ -5,17 +5,27 @@
     flex-direction: column;
     margin: 0 auto;
     .training {
-        padding: 40px 0;
+        display: flex;
+        padding: 60px 0;
         text-align: left;
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 2em;
+        line-height: 61px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
         line-height: 61px;
         /* identical to box height */
         
         
         color: #23286B;
+    }
+
+    .add-some-font {
+        padding: 20px 0;
     }
         
     .text-area {
@@ -23,14 +33,18 @@
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: baseline;
+        height: auto;
+        .book-portal-img-container {
+            align-self: flex-end;
+        }
         .text-column {
-            padding-bottom: 30px;
+            padding-bottom: 60px;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            justify-content: center;
             width: 200px;
-            height: 200px;
-            margin: 0 20px 0 0;
+            min-height: 200px;
+            margin: 0 50px 20px 0;
             .red-text {
                 left: 0%;
                 right: 8.84%;
@@ -45,6 +59,7 @@
                 line-height: 30px;
     
                 color: #D62929;
+                padding: 0 0 10px 0;
                 border-bottom: 3px solid #23286B;
             }
             .description-text {
@@ -57,9 +72,9 @@
                 font-family: Montserrat;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 15px;
+                font-size: 20px;
                 line-height: 18px;
-    
+                padding: 20px 0;
                 color: #23286B;
     
             }
@@ -74,7 +89,6 @@
                 font-weight: normal;
                 font-size: 15px;
                 line-height: 18px;
-    
                 color: #3E8AF8;
     
             }
@@ -155,8 +169,8 @@
     }
     .about-us {
         .text-long-area {
-            display: flex;
             justify-content: space-between;
+            display: flex;
             flex-wrap: wrap;
             align-items: baseline;
             .album-teachers {
@@ -187,6 +201,7 @@
                 .column-about-us {
                     display: flex;
                     flex-direction: column;
+                    justify-content: center;
                 }
                 .description-text {
                     left: 0%;
@@ -221,12 +236,28 @@
                 }
             }   
         }
+        .our-teachers {
+
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 30px;
+
+            display: flex;
+            padding: 40px 0;
+            text-align: left;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            color: #23286B;
+        }
         .teachers-army {
             display: flex;
             flex-wrap: wrap;
 
             .teachers {
-                padding: 0 10px 10px 0;
+                padding: 0 20px 20px 0;
             }
         }
     }
@@ -253,8 +284,9 @@
                 color: #DB7602;
                 font-style: normal;
                 font-weight: 500;
-                font-size: 20px;
+                font-size: 30px;
                 line-height: 24px;
+                padding: 20px 0;
             }
             .form-container {
                 display: flex;

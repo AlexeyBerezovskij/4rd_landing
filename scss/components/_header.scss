@@ -28,8 +28,7 @@ body{
             height: 10%;
             display: flex;
             justify-content: space-between;
-            align-items: baseline;
-            
+            align-items: flex-end;
             .navigation {
 
                 display: flex;
@@ -47,10 +46,12 @@ body{
             }
             .come-in {
                 text-align: center;
-                padding: 5px 10px;
+                vertical-align: center;
+                padding: 7px 20px 7px 20px;
                 border: 1px solid white;
                 border-radius: 5px;
-                max-width: 100px;
+                max-width: 116px;
+                height: 29px;
             }
             .logo {
                 max-width:156px; 

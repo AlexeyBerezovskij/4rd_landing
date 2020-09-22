@@ -24,7 +24,7 @@ body {
       height: 10%;
       display: flex;
       justify-content: space-between;
-      align-items: baseline; }
+      align-items: flex-end; }
       .header .header-content .navbar .navigation {
         display: flex;
         justify-content: space-between;
@@ -37,10 +37,12 @@ body {
           display: none; } }
       .header .header-content .navbar .come-in {
         text-align: center;
-        padding: 5px 10px;
+        vertical-align: center;
+        padding: 7px 20px 7px 20px;
         border: 1px solid white;
         border-radius: 5px;
-        max-width: 100px; }
+        max-width: 116px;
+        height: 29px; }
       .header .header-content .navbar .logo {
         max-width: 156px;
         height: 70px; }
@@ -91,28 +93,38 @@ body {
   flex-direction: column;
   margin: 0 auto; }
   .main-content .training {
-    padding: 40px 0;
+    display: flex;
+    padding: 60px 0;
     text-align: left;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 2em;
+    line-height: 61px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
     line-height: 61px;
     /* identical to box height */
     color: #23286B; }
+  .main-content .add-some-font {
+    padding: 20px 0; }
   .main-content .text-area {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: baseline; }
+    align-items: baseline;
+    height: auto; }
+    .main-content .text-area .book-portal-img-container {
+      align-self: flex-end; }
     .main-content .text-area .text-column {
-      padding-bottom: 30px;
+      padding-bottom: 60px;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: center;
       width: 200px;
-      height: 200px;
-      margin: 0 20px 0 0; }
+      min-height: 200px;
+      margin: 0 50px 20px 0; }
       .main-content .text-area .text-column .red-text {
         left: 0%;
         right: 8.84%;
@@ -125,6 +137,7 @@ body {
         font-size: 25px;
         line-height: 30px;
         color: #D62929;
+        padding: 0 0 10px 0;
         border-bottom: 3px solid #23286B; }
       .main-content .text-area .text-column .description-text {
         left: 0%;
@@ -134,8 +147,9 @@ body {
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 18px;
+        padding: 20px 0;
         color: #23286B; }
       .main-content .text-area .text-column .link-text {
         left: 0%;
@@ -202,8 +216,8 @@ body {
         padding: 5px;
         margin: 20px 0; }
   .main-content .about-us .text-long-area {
-    display: flex;
     justify-content: space-between;
+    display: flex;
     flex-wrap: wrap;
     align-items: baseline; }
     .main-content .about-us .text-long-area .album-teachers .link-teachers-text {
@@ -227,7 +241,8 @@ body {
       margin: 0 20px 0 0; }
       .main-content .about-us .text-long-area .text-long-column .column-about-us {
         display: flex;
-        flex-direction: column; }
+        flex-direction: column;
+        justify-content: center; }
       .main-content .about-us .text-long-area .text-long-column .description-text {
         left: 0%;
         right: 11.24%;
@@ -250,11 +265,24 @@ body {
         font-size: 15px;
         line-height: 18px;
         color: #3E8AF8; }
+  .main-content .about-us .our-teachers {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 30px;
+    display: flex;
+    padding: 40px 0;
+    text-align: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    color: #23286B; }
   .main-content .about-us .teachers-army {
     display: flex;
     flex-wrap: wrap; }
     .main-content .about-us .teachers-army .teachers {
-      padding: 0 10px 10px 0; }
+      padding: 0 20px 20px 0; }
   .main-content .form-desktop-image-container {
     display: flex;
     align-items: center;
@@ -272,8 +300,9 @@ body {
       color: #DB7602;
       font-style: normal;
       font-weight: 500;
-      font-size: 20px;
-      line-height: 24px; }
+      font-size: 30px;
+      line-height: 24px;
+      padding: 20px 0; }
     .main-content .form-desktop-image-container .trial-lesson-form .form-container {
       display: flex;
       flex-direction: column; }
