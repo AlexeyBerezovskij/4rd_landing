@@ -40,7 +40,14 @@ body {
         border: 1px solid white;
         border-radius: 5px;
         max-width: 116px;
-        height: 29px; }
+        height: 29px;
+        background-color: #23286B;
+        color: white; }
+      .header .header-content .navbar .come-in:hover {
+        border: 1px solid white;
+        background: white;
+        color: #23286B;
+        box-shadow: inset 0 0 0 3px #3a7999; }
       .header .header-content .navbar .logo {
         max-width: 156px;
         height: 70px; }
