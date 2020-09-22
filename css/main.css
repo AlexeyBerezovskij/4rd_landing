@@ -27,11 +27,9 @@ body {
       align-items: flex-end; }
       .header .header-content .navbar .navigation {
         display: flex;
-        justify-content: space-between;
-        height: 18px;
-        padding: 10px; }
+        justify-content: space-between; }
         .header .header-content .navbar .navigation div {
-          padding: 15px; }
+          padding: 0 25px 0 25px; }
       @media (max-width: 1460px) {
         .header .header-content .navbar .navigation {
           display: none; } }
@@ -103,7 +101,7 @@ body {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 61px;
     /* identical to box height */
     color: #23286B; }
@@ -147,7 +145,7 @@ body {
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 18px;
         padding: 20px 0;
         color: #23286B; }
@@ -167,54 +165,50 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between; }
-    .main-content .english-level-area-container .student-laptop-svg {
-      max-width: 508px; }
-      .main-content .english-level-area-container .student-laptop-svg svg {
-        width: 100%;
-        height: 100%; }
-    .main-content .english-level-area-container .level-english-area {
-      max-width: 500px; }
-      .main-content .english-level-area-container .level-english-area .level-head {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 30px;
-        padding: 20px 0;
-        color: #23286B; }
-      .main-content .english-level-area-container .level-english-area .level-area {
+    .main-content .english-level-area-container .student-laptop-svg svg {
+      width: 100%;
+      height: 100%; }
+    .main-content .english-level-area-container .level-english-area .level-head {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 30px;
+      padding: 20px 0;
+      color: #23286B; }
+    .main-content .english-level-area-container .level-english-area .level-area {
+      display: flex;
+      flex-wrap: wrap; }
+      .main-content .english-level-area-container .level-english-area .level-area .level-card {
+        width: 95px;
         display: flex;
-        flex-wrap: wrap; }
-        .main-content .english-level-area-container .level-english-area .level-area .level-card {
-          width: 95px;
-          display: flex;
-          flex-direction: column; }
-          .main-content .english-level-area-container .level-english-area .level-area .level-card .level-number {
-            font-weight: bold;
-            font-size: 30px;
-            line-height: 37px;
-            /* identical to box height */
-            color: #8CB6F5; }
-          .main-content .english-level-area-container .level-english-area .level-area .level-card .level-level {
-            font-style: normal;
-            font-weight: normal;
-            font-size: 15px;
-            line-height: 18px;
-            width: 71px;
-            color: #23286B;
-            text-align: left; }
-      .main-content .english-level-area-container .level-english-area .start-test-button {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 15px;
-        line-height: 18px;
-        color: #FFFFFF;
-        background: #E94A47;
-        border-radius: 5px;
-        width: 160px;
-        height: 30px;
-        text-align: center;
-        padding: 5px;
-        margin: 20px 0; }
+        flex-direction: column; }
+        .main-content .english-level-area-container .level-english-area .level-area .level-card .level-number {
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 37px;
+          /* identical to box height */
+          color: #8CB6F5; }
+        .main-content .english-level-area-container .level-english-area .level-area .level-card .level-level {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          width: 71px;
+          color: #23286B;
+          text-align: left; }
+    .main-content .english-level-area-container .level-english-area .start-test-button {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 18px;
+      color: #FFFFFF;
+      background: #E94A47;
+      border-radius: 5px;
+      width: 160px;
+      height: 30px;
+      text-align: center;
+      padding: 5px;
+      margin: 20px 0; }
   .main-content .about-us .text-long-area {
     justify-content: space-between;
     display: flex;
@@ -269,7 +263,7 @@ body {
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 30px;
     display: flex;
     padding: 40px 0;
