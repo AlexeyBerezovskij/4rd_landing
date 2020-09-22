@@ -1,10 +1,10 @@
 body{
-box-sizing: border-box;
-margin:0;
+    box-sizing: border-box;
+    margin:0;
 }
  
 *, *:after, *:before{
-box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 
@@ -50,7 +50,15 @@ box-sizing: inherit;
                 padding: 5px 10px;
                 border: 1px solid white;
                 border-radius: 5px;
-                width: 100px;
+                max-width: 100px;
+            }
+            .logo {
+                max-width:156px; 
+                height:70px;
+                svg {
+                    max-width:130px; 
+                    height:70px;
+                }
             }
         }
         .description {
@@ -94,6 +102,11 @@ box-sizing: inherit;
                     display: block;
                     max-width: 100%;
                     margin: 0 auto;
+                }
+            }
+            @media (max-width:768px) {
+                .books-svg {
+                    display: none;
                 }
             }
 

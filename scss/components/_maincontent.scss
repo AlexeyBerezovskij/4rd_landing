@@ -5,7 +5,7 @@
     flex-direction: column;
     margin: 0 auto;
     .training {
-        padding: 20px 0;
+        padding: 40px 0;
         text-align: left;
         font-family: Montserrat;
         font-style: normal;
@@ -231,12 +231,59 @@
         }
     }
     .form-desktop-image-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10% 0;
+
+        .desktop-image {
+            max-width: 50%;
+            img {
+                display: block;
+                max-width: 100%;
+            }
+        }
+        @media (max-width:1000px) {
+            .desktop-image {
+                display: none;
+            }
+        }
         .trial-lesson-form {
+            .trial-lesson-head {
+                color: #DB7602;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+            }
             .form-container {
                 display: flex;
                 flex-direction: column;
+                .input-border {
+                    border-bottom: 0.8px solid #23286B;
+                    max-width: 340px;
+
+                }
+                .checkbox-text-container {
+                    max-width: 340px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 18px;
+                    display: flex;
+                    align-items: center;
+                    color: #23286B;
+                    margin: 10px;
+                    .orange {
+                        color: #DB7602;
+                        padding: 0 5px;
+                    }
+                    .checkbox {
+                        margin: 20px;
+                    }
+                }
                 .form {
-                    width: 340px;
+                    max-width: 340px;
                     color: #A1C3FC;
                     border: 1px solid white;
                     padding: 10px;

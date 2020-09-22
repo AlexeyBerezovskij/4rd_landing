@@ -1,7 +1,6 @@
 {
   "name": "signin",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,5 +11,14 @@
   "dependencies": {
     "node-sass": "^4.14.1",
     "sass": "^1.26.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyBerezovskij/4rd_landing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexeyBerezovskij/4rd_landing/issues"
+  },
+  "homepage": "https://github.com/AlexeyBerezovskij/4rd_landing#readme",
+  "description": ""
 }

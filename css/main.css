@@ -40,7 +40,13 @@ body {
         padding: 5px 10px;
         border: 1px solid white;
         border-radius: 5px;
-        width: 100px; }
+        max-width: 100px; }
+      .header .header-content .navbar .logo {
+        max-width: 156px;
+        height: 70px; }
+        .header .header-content .navbar .logo svg {
+          max-width: 130px;
+          height: 70px; }
     .header .header-content .description {
       justify-content: space-between;
       height: 90%;
@@ -70,6 +76,9 @@ body {
         display: block;
         max-width: 100%;
         margin: 0 auto; }
+      @media (max-width: 768px) {
+        .header .header-content .description .books-svg {
+          display: none; } }
     @media (max-width: 1024px) {
       .header .header-content .description {
         flex-direction: column-reverse;
@@ -82,7 +91,7 @@ body {
   flex-direction: column;
   margin: 0 auto; }
   .main-content .training {
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: left;
     font-family: Montserrat;
     font-style: normal;
@@ -246,30 +255,70 @@ body {
     flex-wrap: wrap; }
     .main-content .about-us .teachers-army .teachers {
       padding: 0 10px 10px 0; }
-  .main-content .form-desktop-image-container .trial-lesson-form .form-container {
+  .main-content .form-desktop-image-container {
     display: flex;
-    flex-direction: column; }
-    .main-content .form-desktop-image-container .trial-lesson-form .form-container .form {
-      width: 340px;
-      color: #A1C3FC;
-      border: 1px solid white;
-      padding: 10px;
-      margin: 5px; }
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 0; }
+    .main-content .form-desktop-image-container .desktop-image {
+      max-width: 50%; }
+      .main-content .form-desktop-image-container .desktop-image img {
+        display: block;
+        max-width: 100%; }
+    @media (max-width: 1000px) {
+      .main-content .form-desktop-image-container .desktop-image {
+        display: none; } }
+    .main-content .form-desktop-image-container .trial-lesson-form .trial-lesson-head {
+      color: #DB7602;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px; }
+    .main-content .form-desktop-image-container .trial-lesson-form .form-container {
+      display: flex;
+      flex-direction: column; }
+      .main-content .form-desktop-image-container .trial-lesson-form .form-container .input-border {
+        border-bottom: 0.8px solid #23286B;
+        max-width: 340px; }
+      .main-content .form-desktop-image-container .trial-lesson-form .form-container .checkbox-text-container {
+        max-width: 340px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: #23286B;
+        margin: 10px; }
+        .main-content .form-desktop-image-container .trial-lesson-form .form-container .checkbox-text-container .orange {
+          color: #DB7602;
+          padding: 0 5px; }
+        .main-content .form-desktop-image-container .trial-lesson-form .form-container .checkbox-text-container .checkbox {
+          margin: 20px; }
+      .main-content .form-desktop-image-container .trial-lesson-form .form-container .form {
+        max-width: 340px;
+        color: #A1C3FC;
+        border: 1px solid white;
+        padding: 10px;
+        margin: 5px; }
 
 .footer {
-  background: #23286B; }
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+  background: linear-gradient(238.95deg, #23286B 18.43%, rgba(29, 50, 124, 0.984553) 53.52%, rgba(10, 85, 183, 0.93) 111.46%);
+  justify-content: center;
+  align-items: center; }
   .footer .footer-container {
     display: flex;
     justify-content: space-between;
-    width: 70%;
     margin: 0 auto;
-    background: #23286B;
     color: white;
+    width: 70%;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    min-height: 336px;
     align-items: baseline;
     flex-wrap: wrap; }
     .footer .footer-container .second-footer-column .social-media-links {

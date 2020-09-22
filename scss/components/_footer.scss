@@ -1,22 +1,24 @@
 .footer {
-    background: #23286B;
-
+    display: flex;
+    width: 100%;
+    min-height: 400px;
+    background: $gradient;
+    justify-content: center;
+    align-items: center;
     .footer-container {
         display: flex;
         justify-content: space-between;
-        width: 70%;
         margin: 0 auto;
-        background: #23286B;
         color: white;
+        width: 70%;
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
         line-height: 18px;
-        min-height: 336px;
         align-items: baseline;
         flex-wrap: wrap;
-        .first-footer-column {}
         .second-footer-column {
+            
             .social-media-links {
                 display: flex;
                 
